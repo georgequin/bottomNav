@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EFEDEC"
+    android:fitsSystemWindows="true"
+    tools:context=".FirstFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@drawable/backdrop2"
+        >
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="30dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:cardPreventCornerOverlap="true"
+
+            android:background="@drawable/boarder_bg">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="7dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="start"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/manpic"
+                    android:paddingEnd="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:text="Abiola ogunjobi"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:text="verified "
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="40dp"
+        app:cardElevation="7dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardBackgroundColor="@color/white"
+        android:background="@drawable/boarder_bg">
+
+        <TextView
+            android:background="@drawable/boarder_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_security_24"
+            android:drawablePadding="5dp"
+            android:text="Security"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:padding="12dp"
+            android:drawableTint="@color/primary1"
+            android:textSize="15dp"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:orientation="vertical"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="7dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardBackgroundColor="@color/white"
+        android:background="@drawable/boarder_bg">
+
+        <TextView
+            android:background="@drawable/boarder_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_credit_card_24"
+            android:text="card"
+            android:drawablePadding="5dp"
+            android:textAlignment="textStart"
+            android:drawableTint="@color/primary1"
+            android:padding="12dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:orientation="vertical"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="7dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardBackgroundColor="@color/white"
+        android:background="@drawable/boarder_bg">
+
+        <TextView
+            android:background="@drawable/boarder_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_round_notifications_24"
+            android:text="Notification"
+            android:textAlignment="textStart"
+            android:padding="12dp"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/primary1"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:orientation="vertical"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="7dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardPreventCornerOverlap="true"
+        android:background="@drawable/boarder_bg">
+
+        <TextView
+            android:background="@drawable/boarder_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_credit_card_24"
+            android:text="live support"
+            android:textAlignment="textStart"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/primary1"
+            android:padding="12dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:orientation="vertical"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="7dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardBackgroundColor="@color/white"
+        android:background="@drawable/boarder_bg">
+
+        <TextView
+            android:background="@drawable/boarder_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_security_24"
+            android:text="About us"
+            android:drawableTint="@color/primary1"
+            android:textAlignment="textStart"
+            android:drawablePadding="5dp"
+            android:padding="12dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:orientation="vertical"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="7dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardBackgroundColor="@color/white"
+        android:background="@drawable/boarder_bg">
+
+        <TextView
+            android:background="@drawable/boarder_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_security_24"
+            android:text="contact us"
+            android:textAlignment="textStart"
+            android:drawablePadding="5dp"
+            android:padding="12dp"
+            android:drawableTint="@color/primary1"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:orientation="vertical"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="7dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardBackgroundColor="@color/white"
+        android:background="@drawable/boarder_bg">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_security_24"
+            android:text="terms and privacy support"
+            android:textAlignment="textStart"
+            android:drawablePadding="5dp"
+            android:padding="12dp"
+            android:drawableTint="@color/primary1"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+
+            android:orientation="vertical"/>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
